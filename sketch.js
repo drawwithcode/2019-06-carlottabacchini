@@ -67,7 +67,7 @@ function draw() {
   pop()
 
 
-// explanation
+// instructions
   push()
   textFont(myFont);
   fill('white');
@@ -190,17 +190,6 @@ function draw() {
 
 
 }
-
-//setting the keyboard input and the range of colors
-// function keyPressed() {
-//   if (keyCode === ENTER) {
-//     if (r >= 0 && r <= 100 && g >= 180 && g <= 220 && b >= 160 && b <= 190) {
-//       answer = 'right';
-//       background(r, g, b);
-//       testo("Congrats! You almost guessed my favorite color.", 'black')
-//     }
-//   }
-// }
 
 // define the function that allows to change page when click on the button
 function cambiaPagina() {
